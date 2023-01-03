@@ -13,7 +13,7 @@ export default function ProgramCard ({cardData}) {
             <div className={style.imageWrapper}>
                 <img
                     src={pic}
-                    alt = 'fdhjkds'
+                    alt = 'program image'
                     height='100%'
                     width = '100%'
                 />

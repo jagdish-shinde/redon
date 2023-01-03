@@ -12,12 +12,12 @@ function MainPage() {
   return (
     <main>
       <Header/>
-      {/* <HeroSection/>
+      <HeroSection/>
       <About/>
       <ProgramSec/>
       <Trainer/>
       <FeesStructure/>
-      <Footer/> */}
+      <Footer/>
     </main>
   );
 }

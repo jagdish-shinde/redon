@@ -12,7 +12,7 @@ import ProgramPage from './pages/programPage';
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/",  // localhost:3000
     element: <MainPage/>,
   },
   {

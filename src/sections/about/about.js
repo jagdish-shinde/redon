@@ -8,6 +8,7 @@ export default function About () {
 
     return(
         <section className={style.wrapper}>
+
             <div className={style.leftSec}>
                 <img
                     src={motivator}
@@ -17,6 +18,7 @@ export default function About () {
 
                 />
             </div>
+
             <div className={style.rightSec}>
                 If you want something you've never had, you must be willing to do something you've never done.
                 <Button
@@ -24,6 +26,7 @@ export default function About () {
                     buttonText = 'Know More ...'
                 />
             </div>
+            
         </section>
     )
 }

@@ -7,7 +7,5 @@ export default function ProgramPage () {
             <Header/>
             <h1>Welcome to Program Page</h1>
         </main>
-       
-
     )
 }

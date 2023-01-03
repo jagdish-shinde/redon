@@ -14,24 +14,18 @@ export default function HeroSection () {
                 width = '100%'
             />
           
-
             <div className={styles.btnContainer}>
 
-            <p className={styles.para}>
-            <span className={styles.tagLine}>
-            Hustle to gain more muscle.
-             </span>  Improve yourself. Bodies of stamina & strength. Forever fit, forever strong!
-            </p>
-            <Button 
-                buttonStyle={styles.buttonStyle}
-            />
-
+                    <p className={styles.para}>
+                    <span className={styles.tagLine}>
+                    Hustle to gain more muscle.
+                    </span>  Improve yourself. Bodies of stamina & strength. Forever fit, forever strong!
+                    </p>
+                    <Button 
+                        buttonStyle={styles.buttonStyle}
+                    />
             </div>
-           
         
-         
-
-
         </div>
     )
 }

@@ -8,6 +8,7 @@ import { Link } from "react-router-dom";
 
 export default function Header () {
     const [isShowingMenu , setIsShowingMenu] = useState(false)
+    
     const nevbarOptions = [
         { name : 'About' , path : '/aboutPage'},
         { name : 'Home' , path : '/'},
@@ -44,6 +45,8 @@ export default function Header () {
                 onClick ={() => setIsShowingMenu(!isShowingMenu)}
             />
          </header>
+
+
             { 
             
             isShowingMenu && <div className={styles.menuOption}>
@@ -64,6 +67,9 @@ export default function Header () {
             </ul>
             
         </div>
+
+
+
     }
                 </div>
     )
