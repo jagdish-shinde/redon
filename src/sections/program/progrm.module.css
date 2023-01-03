@@ -1,0 +1,52 @@
+
+.wrapper{
+    display: grid;
+    justify-items: center;
+    grid-row-gap: 1rem;
+    padding-top: 2rem;
+}
+.primaryHeading{
+    margin: 0;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+.secondaryHeading{
+    margin: 0;
+    text-align: center;
+    color: grey;
+}
+.sectionWrapper{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1024px)  { 
+    .wrapper{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        padding: 2rem 8rem;
+    }
+    .primaryHeading{
+        font-size: 2.5rem;
+    }
+    .secondaryHeading{
+        font-size: 1.5rem;
+    }
+    .sectionWrapper{
+        padding : 4rem 0;
+    }
+
+
+
+}

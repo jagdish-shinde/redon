@@ -1,0 +1,28 @@
+.secWrapper{
+    padding: 2rem 0;
+}
+.heading{
+    text-align: center;
+}
+.cardWrapper >*{
+    margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 1024px)  { 
+    .cardWrapper{
+        display: flex;
+        width: 65%;
+        margin: 0 auto;
+    }
+    .secWrapper{
+        padding: 4rem 0;
+    }
+    .heading{
+        font-size: 2rem;
+        padding-bottom: 2rem;
+    }
+    .cardWrapper >*{
+        margin-bottom: 0rem;
+    }
+
+}
